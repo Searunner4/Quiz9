@@ -15,7 +15,7 @@ def test_subtract():
     assert subtract(0,5) == -5
     assert subtract(7.5, 2.5) == 5.0
     assert subtract(-10, 5) == -15
-    assert subtract(-12, 50) == 38
+    assert subtract(-12, -50) == 38
 
 def test_multiply():
     assert multiply(3, 4) == 12
